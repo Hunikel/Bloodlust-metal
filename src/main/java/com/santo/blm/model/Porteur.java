@@ -17,7 +17,4 @@ public class Porteur {
 	private Inventaire inventaire;
 	private Jauge jauge;
 	
-	public Porteur() {
-		
-	}
 }
