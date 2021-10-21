@@ -7,13 +7,12 @@ import javax.persistence.Id;
 
 import lombok.Data;
 
-@Entity
 @Data
-public class Aspect {
-
+@Entity
+public class Competence {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 
-	private String nom;
+	private CompetenceEnum nom;
 }

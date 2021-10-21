@@ -1,6 +1,7 @@
 package com.santo.blm.model;
 
 import java.util.List;
+import java.util.Optional;
 
 import lombok.Data;
 
@@ -15,7 +16,7 @@ public class Pouvoir {
 	private TypeFrequenceEnum typeFrequence;
 	
 	private boolean exalLourd = false;
-	private Pouvoir preRequis;
+	private Optional<Pouvoir> preRequis;
 	
 	private List<Augmentation> augmentations;
 }

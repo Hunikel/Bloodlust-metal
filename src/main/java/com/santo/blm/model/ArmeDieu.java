@@ -1,8 +1,10 @@
 package com.santo.blm.model;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @Data
+@EqualsAndHashCode(callSuper = true)
 public class ArmeDieu extends Arme{
 
 	private int exp;
